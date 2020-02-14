@@ -1,0 +1,25 @@
+---
+title: "Milestone 2"
+author: "Feven Yohannes"
+date: "February 14, 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE }
+knitr::opts_chunk$set(echo = FALSE)
+
+library(readr)
+library(dplyr)
+library(tidyverse)
+```
+
+
+This data is from Nicholas Kuipers' 2019 paper called "The Effect of Electing Female Candidates on Attitudes Towards Intimate Partner Violence".
+
+```{r,warning=FALSE,message=FALSE}
+data <-read_csv("candidate_2019_data.csv")
+  
+data %>%
+summary(data)
+```
+
