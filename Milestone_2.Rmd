@@ -16,6 +16,8 @@ library(tidyverse)
 
 This data is from Nicholas Kuipers' 2019 paper called "The Effect of Electing Female Candidates on Attitudes Towards Intimate Partner Violence".
 
+link to repo: https://github.com/fyohannes/Milestone_2/blob/master/Milestone_2.Rmd
+
 ```{r,warning=FALSE,message=FALSE}
 data <-read_csv("candidate_2019_data.csv")
   
